@@ -1,0 +1,101 @@
+/*topo*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(220, 202, 222);
+}
+
+.imagem-topo {
+    background-image: url(foto\ 1.jpg);
+    height: 500px;
+    background-position: right center; /*Alinhar a imagem de topo*/
+    background-size: cover; /*Motra a imagem inteira, mesmo que corte um pedaço*/
+    margin: 20px 50px 5px 50px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.menu {
+    background: rgba(222, 188, 228, 0.5);
+    color: white;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    
+}
+.menu ul li {
+    
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 10px;
+
+}
+.menu ul li a {
+    padding-left: 10px ;
+}
+.imagem-topo nav li:hover{
+    color:  rgb(239, 127, 243);
+}
+
+/*Escopo*/
+
+.texto-meio {
+text-align: center;
+}
+
+.texto-meio h2 {
+    font-size: 30px;
+}
+
+.texto-meio h3 {
+    margin: 20px 50px 5px 50px;
+}
+
+.content-section {
+    margin: 20px 50px 5px 50px;
+    overflow: auto;
+}
+.imagem {
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.texto-final {
+    background-color: rgb(246, 212, 246);
+    margin: 20px 50px 5px 50px;
+    border-radius: 4px;
+}
+.titulo-imagem {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.historia {
+    padding-left: 40px;
+    padding-right: 200px;
+}
+.historia h2 {
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.historia h3 {
+    padding-bottom: 40px;
+}
+
+/*Localização*/
+
+.texto-localizacao{
+    font-size: 30px;
+    text-align: center;
+}
+.mapa {
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    padding-bottom: 40px;
+}
